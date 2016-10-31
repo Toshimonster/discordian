@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle discordian",
+        "command": "discordian:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "discordian",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "discordian:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
